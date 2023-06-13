@@ -1,3 +1,4 @@
+// generateSSGHelper in Theo.gg T3 Tutorial
 import { createServerSideHelpers } from "@trpc/react-query/server";
 import { appRouter } from "~/server/api/root";
 import { prisma } from "~/server/db";
