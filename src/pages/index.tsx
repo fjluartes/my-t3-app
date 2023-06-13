@@ -10,6 +10,7 @@ import { PostView } from "~/components/postview";
 
 const CreatePostWizard = () => {
   const { user } = useUser();
+  // use react hook form instead of useState
   const [input, setInput] = useState<string>("");
   const ctx = api.useContext();
   const { mutate, isLoading: isPosting } = api.posts.create.useMutation({

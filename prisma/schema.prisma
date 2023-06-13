@@ -19,3 +19,5 @@ model Post {
 
   @@index([authorId])
 }
+
+// add User model (data from clerk) with relation to post
